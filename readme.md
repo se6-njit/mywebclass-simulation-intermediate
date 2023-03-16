@@ -103,5 +103,3 @@ customers. Good luck with the MyWebClass.org Simulation project!
 - Sprint 4 - TBD
 
 # ADD YOUR PROJECT LINKS BELOW THIS
-
-- test
