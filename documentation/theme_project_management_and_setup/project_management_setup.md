@@ -22,3 +22,5 @@ enhancing and refining our website to meet our evolving business needs and
 customer demands.
 
 ## Initiative(s)
+
+- [Agile Methodologies](./initiatives/agile_methodology.md)
