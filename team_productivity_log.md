@@ -13,12 +13,13 @@ member made adequate and equal contributions to the project.
 | Create user story Kanban Board                             | 2            | [Issue 12](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/12) | Done   | Stephen Ebrahim (se6-njit) | 2023-03-19  | 2023-03-19   | Documentation | Started documentation for the creation of a Github Kanban Board   |
 | Implementing Kanban like features in Project Board         | 1            | [Issue 13](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/13) | Done   | Stephen Ebrahim (se6-njit) | 2023-03-19  | 2023-03-19   | Documentation | documentation for the Github Kanban Board features used           |
 | Create Initiative for Managing and Monitoring Team Members | 5            | [Issue 14](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/14) | Done   | Stephen Ebrahim (se6-njit) | 2023-03-19  | 2023-03-19   | Documentation | Completed initiative                                              |
+| Create Epic for Productivity Log                           | 3            | [Issue 15](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/15) | Done   | Stephen Ebrahim (se6-njit) | 2023-03-19  | 2023-03-19   | Documentation | Completed productivity log epic                                   |
 
 ## Accumulating Contributions
 
 | Team Member                | Total Story Points |
 | -------------------------- | ------------------ |
-| Stephen Ebrahim (se6-njit) | 27                 |
+| Stephen Ebrahim (se6-njit) | 30                 |
 | Ebram Mekhail              | -                  |
 | Aryan Nesti                | -                  |
 
@@ -30,6 +31,6 @@ member made adequate and equal contributions to the project.
 
 | Team Member                | Rating        |
 | -------------------------- | ------------- |
-| Stephen Ebrahim (se6-njit) | 27 / 8 = 3.34 |
+| Stephen Ebrahim (se6-njit) | 30 / 9 = 3.33 |
 | Ebram Mekhail              | -             |
 | Aryan Nesti                | -             |
