@@ -58,4 +58,4 @@ Develop an automated quality control system to ensure that the project meets cod
 
 ## Epic(s)
 
-- [Kanban](./epics/quality_control_epic.md)
+- [Quality Control Epic](./epics/quality_control_epic.md)

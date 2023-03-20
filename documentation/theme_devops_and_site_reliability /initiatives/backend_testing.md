@@ -51,5 +51,5 @@ Develop a comprehensive testing strategy for backend testing using Artillery and
 
 ## Epic(s)
 
-- [Kanban](./epics/backend_testing_epic.md)
+- [Backend Testing Epic](./epics/backend_testing_epic.md)
 
