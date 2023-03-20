@@ -18,4 +18,5 @@ can easily track my progress and identify areas for improvement.
 
 # Task(s)
 
--
+- [Creating Table to Store Data About Productivity](./tasks/prod_log_data.md)
+- [Calculating Productivity Rating](./tasks/calc_productivity_rating.md)
