@@ -14,4 +14,4 @@ progress.
 
 ## Task(s)
 
--
+- [Implementing Kanban Like Features](./tasks/kanban_board_features.md)
