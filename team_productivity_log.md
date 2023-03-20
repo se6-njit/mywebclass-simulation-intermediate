@@ -10,12 +10,13 @@ member made adequate and equal contributions to the project.
 | Creating theme for Project Management and Setup | 8            | [Issue 9](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/9)   | Done   | Stephen Ebrahim (se6-njit) | 2023-03-19  | 2023-03-19   | Documentation | Starting out project theme                                        |
 | Create initiative for Agile Methodology         | 5            | [Issue 10](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/10) | Done   | Stephen Ebrahim (se6-njit) | 2023-03-19  | 2023-03-19   | Documentation | Starting initiative for agile methodology                         |
 | Create the Epic for Kanban                      | 3            | [Issue 11](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/11) | Done   | Stephen Ebrahim (se6-njit) | 2023-03-19  | 2023-03-19   | Documentation | Starting documentation for the prefered agile methodology: Kanban |
+| Create user story Kanban Board                  | 2            | [Issue 12](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/12) | Done   | Stephen Ebrahim (se6-njit) | 2023-03-19  | 2023-03-19   | Documentation | Started documentation for the creation of a Github Kanban Board   |
 
 ## Accumulating Contributions
 
 | Team Member                | Total Story Points |
 | -------------------------- | ------------------ |
-| Stephen Ebrahim (se6-njit) | 19                 |
+| Stephen Ebrahim (se6-njit) | 21                 |
 | Ebram Mekhail              | -                  |
 | Aryan Nesti                | -                  |
 
@@ -27,6 +28,6 @@ member made adequate and equal contributions to the project.
 
 | Team Member                | Rating       |
 | -------------------------- | ------------ |
-| Stephen Ebrahim (se6-njit) | 19 / 5 = 3.8 |
+| Stephen Ebrahim (se6-njit) | 21 / 6 = 3.5 |
 | Ebram Mekhail              | -            |
 | Aryan Nesti                | -            |
