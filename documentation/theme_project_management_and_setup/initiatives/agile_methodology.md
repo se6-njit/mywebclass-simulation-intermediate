@@ -70,4 +70,4 @@ of the organization, focusing on the development of web and mobile applications.
 
 ## Epic(s)
 
--
+- [Kanban](./epics/kanban.md)
