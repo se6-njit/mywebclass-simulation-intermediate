@@ -20,12 +20,13 @@ member made adequate and equal contributions to the project.
 | Create Initiative for project documentation                     | 5            | [Issue 19](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/19) | Done   | Stephen Ebrahim (se6-njit) | 2023-03-19  | 2023-03-19   | Documentation | started initiative doc for project documentation                  |
 | Create a new Epic for developer documentation                   | 3            | [Issue 20](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/20) | Done   | Stephen Ebrahim (se6-njit) | 2023-03-19  | 2023-03-19   | Documentation | started epic doc for developer documentation                      |
 | Create user story for Code Clarity and Testability              | 2            | [Issue 21](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/21) | Done   | Stephen Ebrahim (se6-njit) | 2023-03-19  | 2023-03-19   | Documentation | finished user story about code clarity                            |
+| Task for Commenting Code                                        | 1            | [Issue 22](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/22) | Done   | Stephen Ebrahim (se6-njit) | 2023-03-19  | 2023-03-19   | Documentation | finished documentation task about commenting code                 |
 
 ## Accumulating Contributions
 
 | Team Member                | Total Story Points |
 | -------------------------- | ------------------ |
-| Stephen Ebrahim (se6-njit) | 44                 |
+| Stephen Ebrahim (se6-njit) | 45                 |
 | Ebram Mekhail              | -                  |
 | Aryan Nesti                | -                  |
 
@@ -37,6 +38,6 @@ member made adequate and equal contributions to the project.
 
 | Team Member                | Rating         |
 | -------------------------- | -------------- |
-| Stephen Ebrahim (se6-njit) | 44 / 15 = 2.93 |
+| Stephen Ebrahim (se6-njit) | 45 / 16 = 2.81 |
 | Ebram Mekhail              | -              |
 | Aryan Nesti                | -              |
