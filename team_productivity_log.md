@@ -17,12 +17,13 @@ member made adequate and equal contributions to the project.
 | Create a user story to implement the productivity log system    | 2            | [Issue 16](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/16) | Done   | Stephen Ebrahim (se6-njit) | 2023-03-19  | 2023-03-19   | Documentation | Completed prod log system doc                                     |
 | Create Task for creating table to store data about productivity | 1            | [Issue 17](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/17) | Done   | Stephen Ebrahim (se6-njit) | 2023-03-19  | 2023-03-19   | Documentation | Completed doc about productivty log data                          |
 | Task for a way to calculate productivity rating                 | 1            | [Issue 18](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/18) | Done   | Stephen Ebrahim (se6-njit) | 2023-03-19  | 2023-03-19   | Documentation | Completed doc about computing prod rating of developer            |
+| Create Initiative for project documentation                     | 5            | [Issue 19](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/19) | Done   | Stephen Ebrahim (se6-njit) | 2023-03-19  | 2023-03-19   | Documentation | started initiative doc for project documentation                  |
 
 ## Accumulating Contributions
 
 | Team Member                | Total Story Points |
 | -------------------------- | ------------------ |
-| Stephen Ebrahim (se6-njit) | 34                 |
+| Stephen Ebrahim (se6-njit) | 39                 |
 | Ebram Mekhail              | -                  |
 | Aryan Nesti                | -                  |
 
@@ -32,8 +33,8 @@ member made adequate and equal contributions to the project.
   points that each they completed and then divide that by the number of issues
   to come up with a productivity rating.
 
-| Team Member                | Rating         |
-| -------------------------- | -------------- |
-| Stephen Ebrahim (se6-njit) | 34 / 12 = 2.83 |
-| Ebram Mekhail              | -              |
-| Aryan Nesti                | -              |
+| Team Member                | Rating      |
+| -------------------------- | ----------- |
+| Stephen Ebrahim (se6-njit) | 39 / 13 = 3 |
+| Ebram Mekhail              | -           |
+| Aryan Nesti                | -           |
