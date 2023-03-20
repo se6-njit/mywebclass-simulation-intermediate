@@ -24,3 +24,4 @@ customer demands.
 ## Initiative(s)
 
 - [Agile Methodologies](./initiatives/agile_methodology.md)
+- [Managing and Monitoring Team Members](./initiatives/managing_and_monitoring_team.md)
