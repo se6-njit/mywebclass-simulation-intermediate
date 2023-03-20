@@ -46,6 +46,4 @@ The quality control process is of high priority as it is critical to the success
 
 ## User Stories
 
-- [Automated Testing Framework](./user_stories/automated_testing_framework.md)
-- [Code Review Process](./user_stories/code_review_process.md)
-- [Test Coverage Metrics](./user_stories/test_coverage_metrics.md)
+- [Automated Testing Framework](./user_stories/automatic_quality_control.md)

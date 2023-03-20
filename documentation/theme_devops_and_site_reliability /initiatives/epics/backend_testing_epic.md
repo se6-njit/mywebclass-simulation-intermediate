@@ -44,7 +44,5 @@ This epic is of high priority as it has a significant impact on the quality and 
 
 ## User Stories
 
-- [Unit Testing for Backend Code](./user_stories/unit_testing_backend.md)
-- [Integration Testing for Backend Code](./user_stories/integration_testing_backend.md)
-- [Tracking Testing Progress](./user_stories/tracking_testing_progress.md)
-- [Stakeholder Updates on Testing Status](./user_stories/stakeholder_updates_testing.md)
+- [Unit Testing for Backend Code](./user_stories/test_user_data_model.md)
+

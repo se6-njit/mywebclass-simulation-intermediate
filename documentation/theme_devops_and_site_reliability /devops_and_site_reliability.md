@@ -7,6 +7,6 @@ In today's digital landscape, businesses need to provide reliable, scalable, and
 
 ## Initiative(s)
 
-- [Agile Methodologies](./initiatives/agile_methodology.md)
-- [Managing and Monitoring Team Members](./initiatives/managing_and_monitoring_team.md)
-- [Project Documentation](./initiatives/project_documentation.md)
+- [Agile Methodologies](./initiatives/backend_testing.md)
+- [Managing and Monitoring Team Members](./initiatives/devops_tools_testing_and_evaluation.md)
+- [Project Documentation](./initiatives/quality_control.md)

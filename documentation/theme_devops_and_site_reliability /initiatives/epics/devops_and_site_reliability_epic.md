@@ -43,6 +43,5 @@ This epic is of high priority as DevOps is a critical aspect of the organization
 
 ## User Stories
 
-- [Evaluate Configuration Management Tools](./user_stories/evaluate_configuration_management_tools.md)
-- [Integrate Continuous Integration Tool](./user_stories/integrate_continuous_integration_tool.md)
-- [Manage Infrastructure as Code](./user_stories/manage_infrastructure_as_code.md)
+- [Automatic Deployment](./user_stories/automate_deployment_pipeline.md)
+

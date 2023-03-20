@@ -60,4 +60,4 @@ This initiative will focus on evaluating node package managers and build tools f
 
 ## Epic(s)
 
-- [Kanban](./epics/kanban.md)
+- [Kanban](./epics/devops_and_site_reliability_epic.md)
