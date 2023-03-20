@@ -43,8 +43,8 @@ effectively, leading to increased productivity and better results.
 
 ## Priority
 
-medium
+Medium
 
 ## User Stories
 
--
+- [Productivty Log System](./user_stories/prod_log_system.md)
