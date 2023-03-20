@@ -42,4 +42,4 @@ Low (for documenting this)
 
 ## User Stories
 
--
+- [Code Clairty and Testability](./user_stories/code_clarity.md)
