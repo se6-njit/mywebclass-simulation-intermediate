@@ -52,6 +52,6 @@ The documentation for this task is low priority. However, the idea of using
 Kanban high priority as it has the potential to significantly improve the
 organization's project management processes.
 
-## List User Stories Related
+## User Stories
 
--
+- [Github Kanban Project Board](./user_stories/github_kanban_project_board.md)
