@@ -38,6 +38,7 @@ member made adequate and equal contributions to the project.
 | Creating a new initiative for Web development                         | 8            | [Issue 57](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/57#issue-1632978165) | Done   | Aryan Nesti (AryanNesti) | 2023-03-20  | 2023-03-20   | Documentation | Created new initiative for Web Development                     |
 | Creating a new initiative for Front-End Testing                         | 5            | [Issue 59](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/59) | Done   | Aryan Nesti (AryanNesti) | 2023-03-20  | 2023-03-20   | Documentation | Created new initiative for Front-end Testing                     |
 | Creating a new initiative for Web Security                        | 5            | [Issue 61](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/61) | Done   | Aryan Nesti (AryanNesti) | 2023-03-20  | 2023-03-20   | Documentation | Created new initiative for Web Security                     |
+| Creating a new epic for Web Performance                        | 5            | [Issue 63](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/63) | Done   | Aryan Nesti (AryanNesti) | 2023-03-21  | 2023-03-21   | Documentation | Created new epic for Web Performance                  |
 
 
 

@@ -58,3 +58,6 @@ The project will involve a complete test of the organization's website, includin
 - Project Manager: Stephen Ebrahim
 - Software Developers: Aryan Nesti
 - Quality Assurance: Ebram Mekhail
+
+## Epic(s)
+- [Web Performance](./epics/web_performance.md)
