@@ -6,3 +6,4 @@ Our product development plan consists of three main areas: front-end testing, de
 
 - [Web Development](./initiatives/web_development.md)
 - [Front-End Testing](./initiatives/front-end_testing.md)
+- [Web Security](./initiatives/web_security.md)
