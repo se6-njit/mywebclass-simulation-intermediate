@@ -34,6 +34,11 @@ member made adequate and equal contributions to the project.
 | Creating a new task for backend testing                           | 1            | [Issue 39](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/39) | Done   | Ebram Mekhail (EbramMekhail) | 2023-03-19  | 2023-03-19   | Documentation | Starting out first task about test suite for login features       |
 | Creating a new task for DevOps Tools Testing and Evaluation       | 1            | [Issue 40](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/40) | Done   | Ebram Mekhail (EbramMekhail) | 2023-03-19  | 2023-03-19   | Documentation | Started second task about the CI/CD pipeline implmention          |
 | Creating a new task for Quality Control                           | 1            | [Issue 41](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/41) | Done   | Ebram Mekhail (EbramMekhail) | 2023-03-19  | 2023-03-19   | Documentation | Finished tasks last one about backend testing                     |
+| Creating a new theme for Product Development                         | 8            | [Issue 55](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/55) | Done   | Aryan Nesti (AryanNesti) | 2023-03-20  | 2023-03-20   | Documentation | Created new theme for Product Development                     |
+| Creating a new initiative for Web development                         | 8            | [Issue 57](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/57#issue-1632978165) | Done   | Aryan Nesti (AryanNesti) | 2023-03-20  | 2023-03-20   | Documentation | Created new initiative for Web Development                     |
+| Creating a new initiative for Front-End Testing                         | 5            | [Issue 59](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/59) | Done   | Aryan Nesti (AryanNesti) | 2023-03-20  | 2023-03-20   | Documentation | Created new initiative for Front-end Testing                     |
+| Creating a new initiative for Web Security                        | 5            | [Issue 61](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/61) | Done   | Aryan Nesti (AryanNesti) | 2023-03-20  | 2023-03-20   | Documentation | Created new initiative for Web Security                     |
+
 
 
 
