@@ -8,3 +8,6 @@ As a quality assurance engineer, I want to automate browser testing to ensure co
 - The automation tool should be integrated with the continuous integration and deployment (CI/CD) pipeline to automatically run the tests after each deployment.
 - The test results should be logged and easily accessible, allowing the QA team to identify and investigate any issues.
 - The automation tool should be scalable, allowing the QA team to add or modify tests as needed without significant changes to the existing setup.
+
+## Task(s)
+- [Cross-Browser Teasting](./tasks/cross-browser_testing.md)
