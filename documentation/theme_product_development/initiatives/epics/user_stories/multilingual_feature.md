@@ -9,3 +9,6 @@ As a user, I want to be able to switch between different languages on the websit
 - The selected language preference is stored in the user's session, so the website remembers the language choice for future visits.
 - If the website content is not available in the selected language, a default language (usually English) is displayed.
 - The language selector is available on all pages of the website, so the user can change the language at any time.
+
+## Task(s)
+- [Implement Language Selection](./tasks/implement_language_selection.md)
