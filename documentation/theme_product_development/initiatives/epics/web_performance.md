@@ -53,3 +53,6 @@ Necessary changes are implemented, tested, and resolved
 - Project Manager: Stephen Ebrahim
 - Software Developers: Aryan Nesti
 - Quality Assurance: Ebram Mekhail
+
+# User Story(s)
+- [Automatic Testing](./user_stories/automatic_testing.md)
