@@ -42,8 +42,9 @@ member made adequate and equal contributions to the project.
 | Creating a new epic for Internationalization Features and Conducting SEO Research                        | 5            | [Issue 65](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/65) | Done   | Aryan Nesti (AryanNesti) | 2023-03-21  | 2023-03-21   | Documentation | Created new epic for Internationalization Features and Conducting SEO Research                  |
 | Creating a new epic for Comprehensive Web Security                        | 3            | [Issue 67](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/67) | Done   | Aryan Nesti (AryanNesti) | 2023-03-21  | 2023-03-21   | Documentation | Created new epic for Comprehensive Web Security                   |
 | Creating a new user story for Protected Information                       | 3            | [Issue 69](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/69) | Done   | Aryan Nesti (AryanNesti) | 2023-03-21  | 2023-03-21   | Documentation | Created new user story for Protected Information                   |
-| Creating a new user story for Search Efficiency                       | 1            | [Issue 71](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/71) | Done   | Aryan Nesti (AryanNesti) | 2023-03-21  | 2023-03-21   | Documentation | Created new user story for Search Efficiency                   |
+| Creating a new user story for Multilingual Feature                       | 1            | [Issue 71](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/71) | Done   | Aryan Nesti (AryanNesti) | 2023-03-21  | 2023-03-21   | Documentation | Created new user story for Multilingual Feature                   |
 | Creating a new user story for Automatic Testing                       | 1            | [Issue 73](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/73) | Done   | Aryan Nesti (AryanNesti) | 2023-03-22  | 2023-03-22   | Documentation | Created new user story for Automatic Testing                   |
+
 
 
 
