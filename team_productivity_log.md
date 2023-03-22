@@ -45,6 +45,8 @@ member made adequate and equal contributions to the project.
 | Creating a new user story for Multilingual Feature                       | 1            | [Issue 71](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/71) | Done   | Aryan Nesti (AryanNesti) | 2023-03-21  | 2023-03-21   | Documentation | Created new user story for Multilingual Feature                   |
 | Creating a new user story for Automatic Testing                       | 1            | [Issue 73](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/73) | Done   | Aryan Nesti (AryanNesti) | 2023-03-22  | 2023-03-22   | Documentation | Created new user story for Automatic Testing                   |
 | Creating a new task for Encrypting and Securely Storing User's Personal Information                       | 5            | [Issue 76](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/76) | Done   | Aryan Nesti (AryanNesti) | 2023-03-22  | 2023-03-22   | Documentation | Created a new task for Encrypting and Securely Storing User's Personal Information                   |
+| Creating a new task for Cross-Browser Testing                       | 2            | [Issue 78](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/78) | Done   | Aryan Nesti (AryanNesti) | 2023-03-22  | 2023-03-22   | Documentation | Created a new task for Cross-Browser Testing                   |
+
 
 
 
