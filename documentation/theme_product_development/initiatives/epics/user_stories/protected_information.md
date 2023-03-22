@@ -10,3 +10,6 @@ As a website user, I want my personal information to be protected, so that I fee
 - The website has implemented industry-standard security measures, such as SSL/TLS encryption, to protect user data from unauthorized access.
 - The website regularly conducts security audits and vulnerability scans to identify and address potential security risks.
 - The website promptly notifies users in the event of a data breach or security incident.
+
+## Task(s)
+- [Encrypt and Securely Store User's Personal Information](./tasks/encrypting_and_securely_storing_user's_personal_information.md)
