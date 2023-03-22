@@ -61,5 +61,6 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.6"
   }
 }
