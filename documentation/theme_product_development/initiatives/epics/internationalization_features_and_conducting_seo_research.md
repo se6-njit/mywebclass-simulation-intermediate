@@ -31,3 +31,6 @@ This epic involves implementing internationalization features on our website to 
 
 # Priority: 
 High
+
+# User Story(s)
+- [Search Efficiency](./user_stories/search_efficiency.md)
