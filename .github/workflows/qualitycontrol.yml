@@ -1,0 +1,34 @@
+name: Quality Control
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  quality-control:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14.x'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Run ESLint
+      run: npx eslint
+
+    - name: Reviewdog
+      uses: reviewdog/action-eslint@v1
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        eslint_level: 'error'
+        filter_mode: 'diff_context'
+        reviewdog_flags: '-reporter=github-pr-check -level=error'
