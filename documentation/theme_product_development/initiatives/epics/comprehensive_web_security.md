@@ -24,3 +24,6 @@ The Comprehensive Website Security epic is aimed at improving the security of th
 
 ## Risks
 - Technical difficulties may arise during implementation
+
+## User Story(s)
+- [Protected Information](./user_stories/protected_information.md)
