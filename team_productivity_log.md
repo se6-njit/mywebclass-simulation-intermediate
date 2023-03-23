@@ -66,7 +66,7 @@ member made adequate and equal contributions to the project.
 | -------------------------- | ------------------ |
 | Stephen Ebrahim (se6-njit) | 45                 |
 | Ebram Mekhail              | 41                 |
-| Aryan Nesti                | 60                 |
+| Aryan Nesti                | 61                 |
 
 ## Productivity Rating Calculation
 
@@ -78,4 +78,4 @@ member made adequate and equal contributions to the project.
 | -------------------------- | -------------- |
 | Stephen Ebrahim (se6-njit) | 45 / 16 = 2.81 |
 | Ebram Mekhail              | 41 / 13 = 3.15 |
-| Aryan Nesti                | 60 / 14 = 4.29 |
+| Aryan Nesti                | 61 / 15 = 4.07 |
