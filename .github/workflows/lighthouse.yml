@@ -35,7 +35,7 @@ jobs:
 
       - name: Generate Lighthouse Report
         run: |
-          lighthouse http://localhost:3000 --output html --output-path --chrome-flags="--headless --no-sandbox --disable-gpu"
+          lighthouse http://localhost:3000 --output html --chrome-flags="--headless --no-sandbox --disable-gpu"
       - name: Upload report, screenshots and videos of failed tests
         uses: actions/upload-artifact@v3
         with:
