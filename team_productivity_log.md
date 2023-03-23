@@ -47,6 +47,7 @@ member made adequate and equal contributions to the project.
 | Creating a new task for Encrypting and Securely Storing User's Personal Information                       | 5            | [Issue 76](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/76) | Done   | Aryan Nesti (AryanNesti) | 2023-03-22  | 2023-03-22   | Documentation | Created a new task for Encrypting and Securely Storing User's Personal Information                   |
 | Creating a new task for Cross-Browser Testing                       | 2            | [Issue 78](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/78) | Done   | Aryan Nesti (AryanNesti) | 2023-03-22  | 2023-03-22   | Documentation | Created a new task for Cross-Browser Testing                   |
 | Creating a new task for Implementing Language Selection Functionality                       | 1            | [Issue 80](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/80) | Done   | Aryan Nesti (AryanNesti) | 2023-03-22  | 2023-03-22   | Documentation | Created a new task for Implementing Language Selection Functionality                  |
+| Implementing 4 CSS Frameworks                       | 8            | [Issue 80](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/80) | Done   | Aryan Nesti (AryanNesti) | 2023-03-22  | 2023-03-22   | Documentation | Comparing different frameworks                  |
 
 
 
@@ -64,7 +65,7 @@ member made adequate and equal contributions to the project.
 | -------------------------- | ------------------ |
 | Stephen Ebrahim (se6-njit) | 45                 |
 | Ebram Mekhail              | 41                 |
-| Aryan Nesti                | 52                 |
+| Aryan Nesti                | 53                 |
 
 ## Productivity Rating Calculation
 
@@ -76,4 +77,4 @@ member made adequate and equal contributions to the project.
 | -------------------------- | -------------- |
 | Stephen Ebrahim (se6-njit) | 45 / 16 = 2.81 |
 | Ebram Mekhail              | 41 / 13 = 3.15 |
-| Aryan Nesti                | 52 / 13 = 4.00 |
+| Aryan Nesti                | 53 / 14 = 3.79 |
