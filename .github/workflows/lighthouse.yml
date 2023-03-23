@@ -1,0 +1,29 @@
+name: Lighthouse Report
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run Lighthouse
+      run: npm run lighthouse
+
+    - name: Upload Lighthouse report
+      uses: actions/upload-artifact@v2
+      with:
+        name: Lighthouse Report
+        path: lighthouse-report.html
