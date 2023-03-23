@@ -39,5 +39,5 @@ jobs:
       - name: Upload report, screenshots and videos of failed tests
         uses: actions/upload-artifact@v3
         with:
-          name: report.html
+          name: test-results
           path: ./test-results
