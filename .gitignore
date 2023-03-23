@@ -4,6 +4,7 @@ grade/__pycache__
 node_modules
 .idea
 venv
+/test-results/
 /playwright-report/
 /playwright/.cache/
 /app/__pycache__/
