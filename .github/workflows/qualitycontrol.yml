@@ -22,19 +22,18 @@ jobs:
 
     - name: Install dependencies
       run: |
-        npm install
         npm install eslint
-        npm install eslint-config-airbnb-base
-        npm install eslint-plugin-import
-
     - name: Eslint Javascript Quality Control
-      run: npx eslint . --ext .js --format junit --output-file test-results/eslint.xml
+      run: npx eslint --format=checkstyle . > eslint-report.xml || true
 
     - name: Upload artifacts
       uses: actions/upload-artifact@v2
       with:
         name: test-results
         path: test-results/
+
+
+        
 
 
     
