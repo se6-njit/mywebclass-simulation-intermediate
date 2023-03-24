@@ -28,15 +28,22 @@ jobs:
         run: npm start &
 
       - name: W3C validation
-        run: npx html-validate http://localhost:3000 --format=checkstyle . > ./test-results/W3C-validation-report.xml || true
+        run: npx html-validate http://localhost:3000 --format=checkstyle . > W3C-validation-report.xml || true
 
       - name: Handicap Accessibility Validation
-        run: npx axe-webdriverjs http://localhost:3000 --headless --save ./test-results/handicap_accessibility.json || true
+        run: npx axe-webdriverjs http://localhost:3000 --headless --save handicap_accessibility.json || true
 
-      - name: Upload artifacts
+      - name: Save W3C validation report
         uses: actions/upload-artifact@v2
         with:
-          name: test-results
-          path: test-results/
+          name: W3C-validation-report
+          path: W3C-validation-report.xml
+
+      - name: Save Handicap Accessibility Validation
+        uses: actions/upload-artifact@v2
+        with:
+          name: handicap_accessibility
+          path: handicap_accessibility.xml
+
 
 
