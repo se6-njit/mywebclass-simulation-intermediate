@@ -1,0 +1,33 @@
+name: Automatically test W3C validation, handicap accessibility
+# I already have a javascript style checking in quality controling using Eslint
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  w3c-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+          sudo apt-get update && sudo apt-get install -y wget
+          wget https://github.com/validator/validator/releases/download/21.3.1/vnu.jar_21.3.1.zip
+          unzip vnu.jar_21.3.1.zip -d vnu
+      - name: Validate HTML with W3C validator
+        run: java -jar vnu/vnu.jar --skip-non-html ./
+
+  axe-core:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: npm install
+      - name: Test accessibility with Axe Core
+        uses: deque-systems/axe-core-action@v3
+        with:
+          url: ${{ https://se6-njit.github.io/mywebclass-simulation-intermediate/ }}
+          
