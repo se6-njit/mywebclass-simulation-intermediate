@@ -22,16 +22,16 @@ jobs:
       - name: Install dependencies
         run: |
           npm install
-          npm install axe-core --save-dev
+          npm install @axe-core/cli
 
       - name: Starting Web Server
-        run: npm start &
+        run: npm start & npx wait-on http://localhost:3000
 
       - name: W3C validation
-        run: npx html-validate http://localhost:3000 --format=checkstyle . > W3C-validation-report.xml || true
+        run: npx html-validate http://localhost:3000 --save W3C-validation-report.xml || true
 
       - name: Handicap Accessibility Validation
-        run: npx axe http://localhost:3000 --headless --save handicap_accessibility.json || true
+        run: axe http://localhost:3000 --exit --save handicap_accessibility.json || true
 
       - name: Save W3C validation report
         uses: actions/upload-artifact@v2
