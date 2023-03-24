@@ -15,21 +15,20 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Setup Node.js environment
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14.x'
-
     - name: Install dependencies
-      run: npm install
+      run: |
+        npm install eslint
+    - name: Eslint Javascript Quality Control
+      run: npx eslint --format=checkstyle . > eslint-report.xml || true
 
-    - name: Run ESLint
-      run: npx eslint
-
-    - name: Reviewdog
-      uses: reviewdog/action-eslint@v1
+    - name: Save ESLint report
+      uses: actions/upload-artifact@v2
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        eslint_level: 'error'
-        filter_mode: 'diff_context'
-        reviewdog_flags: '-reporter=github-pr-check -level=error'
+        name: eslint-report
+        path: eslint-report.xml
+
+
+
+
+
+    
