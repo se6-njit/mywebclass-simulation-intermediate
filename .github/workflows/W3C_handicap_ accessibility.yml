@@ -10,15 +10,18 @@ on:
 
 jobs:
   w3c-validation:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout code
-          uses: actions/checkout@v2
-        - name: Install dependencies
-          run: sudo apt-get update && sudo apt-get install -y w3c-markup-validator
-        - name: Validate HTML with W3C validator
-          run: |
-            find . -name "*.html" -type f -print0 | xargs -0 -n1 -P8 validate -e utf-8
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y w3c-markup-validator
+          export PATH=$PATH:/usr/lib/cgi-bin
+      - name: Validate HTML with W3C validator
+        run: |
+          find . -name "*.html" -type f -print0 | xargs -0 -n1 -P8 validate -e utf-8
 
   # axe-core:
   #   runs-on: ubuntu-latest
