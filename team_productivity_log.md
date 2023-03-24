@@ -49,6 +49,7 @@ member made adequate and equal contributions to the project.
 | Creating a new task for Implementing Language Selection Functionality                       | 1            | [Issue 80](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/80) | Done   | Aryan Nesti (AryanNesti) | 2023-03-22  | 2023-03-22   | Documentation | Created a new task for Implementing Language Selection Functionality                  |
 | Implementing 4 CSS Frameworks                       | 8            | [Issue 82](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/82) | Done   | Aryan Nesti (AryanNesti) | 2023-03-22  | 2023-03-22   | Documentation | Comparing different frameworks                  |
 | SEO Optimization with Google Search Console                       | 1            | [Issue 84](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/84) | Done   | Aryan Nesti (AryanNesti) | 2023-03-23  | 2023-03-23   | Documentation | SEO Optimization with Google Search Console                  |
+| Implementing Web Accessibility                       | 2            | [Issue 84](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/84) | Done   | Aryan Nesti (AryanNesti) | 2023-03-24  | 2023-03-24   | Documentation | Added ARIA attributes                  |
 
 
 
@@ -66,7 +67,7 @@ member made adequate and equal contributions to the project.
 | -------------------------- | ------------------ |
 | Stephen Ebrahim (se6-njit) | 45                 |
 | Ebram Mekhail              | 41                 |
-| Aryan Nesti                | 61                 |
+| Aryan Nesti                | 63                 |
 
 ## Productivity Rating Calculation
 
@@ -78,4 +79,4 @@ member made adequate and equal contributions to the project.
 | -------------------------- | -------------- |
 | Stephen Ebrahim (se6-njit) | 45 / 16 = 2.81 |
 | Ebram Mekhail              | 41 / 13 = 3.15 |
-| Aryan Nesti                | 61 / 15 = 4.07 |
+| Aryan Nesti                | 63 / 16 = 3.94 |
