@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Test accessibility with Axe Core
-        uses: dequelabs/axe-core
+        uses: https://github.com/dequelabs/axe-core
         with:
           url: ${{ env.URL }}
           
