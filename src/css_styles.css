@@ -1,6 +1,6 @@
 /* Navigation Bar Styles */
 
-.navbar {
+  .navbar {
     background-color: #333;
     overflow: hidden;
     position: fixed;
@@ -30,4 +30,26 @@
     background-color: #4CAF50;
     color: white;
   }
+
+  .lead {
+    padding-top: 2%;
+  }
+
+  #privacyModal{
+    visibility: collapse;
+  }
   
+  @media (max-width: 800px) {
+  
+    .heading h1 {
+      font-size: 4rem;
+    }
+  
+    .heading p {
+      font-size: 1.5rem;
+    }
+    img {
+      max-width:100%;
+      height: auto;
+    }
+  }
