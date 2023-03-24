@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: |
           npm install
-          npm install @axe-core/cli
+          npm install -g @axe-core/cli
 
       - name: Starting Web Server
         run: npm start & npx wait-on http://localhost:3000
