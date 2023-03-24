@@ -32,5 +32,5 @@ jobs:
       - name: Test accessibility with Axe Core
         uses: deque-systems/axe-core-action@v3
         with:
-          url: ${{ https://se6-njit.github.io/mywebclass-simulation-intermediate/ }}
+          url: ${{ env.URL }}
           
