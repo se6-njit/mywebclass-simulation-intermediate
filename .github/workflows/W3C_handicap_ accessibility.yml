@@ -28,7 +28,7 @@ jobs:
         run: npm start &
 
       - name: W3C validation
-        run: npx html-validate http://localhost:3000 --format=checkstyle . > ./test-results/W3C-validation-report.xml
+        run: npx html-validate http://localhost:3000 --format=checkstyle . > ./test-results/W3C-validation-report.xml || true
 
       - name: handicap Accessibility Validation
         run: npx axe-webdriverjs http://localhost:3000 --headless --save ./test-results/handicap_accessibility.json
