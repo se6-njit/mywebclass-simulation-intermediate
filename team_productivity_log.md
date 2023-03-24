@@ -51,8 +51,6 @@ member made adequate and equal contributions to the project.
 | SEO Optimization with Google Search Console                       | 1            | [Issue 84](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/84) | Done   | Aryan Nesti (AryanNesti) | 2023-03-23  | 2023-03-23   | Documentation | SEO Optimization with Google Search Console                  |
 | Implementing Web Accessibility                       | 2            | [Issue 86](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/86) | Done   | Aryan Nesti (AryanNesti) | 2023-03-24  | 2023-03-24   | Documentation | Added ARIA attributes                  |
 | Implementing Web Accessibility                       | 2            | [Issue 86](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/86) | Done   | Aryan Nesti (AryanNesti) | 2023-03-24  | 2023-03-24   | Documentation | Added ARIA attributes                  |
-| Implementing a Responsive Design                       | 1            | [Issue 88](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/8) | Done   | Aryan Nesti (AryanNesti) | 2023-03-24  | 2023-03-24   | Documentation | Adding media queries, flexible images, and fluid layouts                  |
-| Implementing Google Translate API                       | 1            | [Issue 90](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/90) | Done   | Aryan Nesti (AryanNesti) | 2023-03-24  | 2023-03-24   | Feature | Added Google Translate API                         |
 
 
 
