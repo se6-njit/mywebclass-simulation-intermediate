@@ -9,29 +9,34 @@ on:
       - master
 
 jobs:
+
   w3c-validation:
+
     runs-on: ubuntu-latest
+
     steps:
+
       - name: Checkout code
         uses: actions/checkout@v2
+
       - name: Install dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get install -y w3c-markup-validator
-          export PATH=$PATH:/usr/lib/cgi-bin
-      - name: Validate HTML with W3C validator
-        run: |
-          find . -name "*.html" -type f -print0 | xargs -0 -n1 -P8 validate -e utf-8
+          npm install
+          npm install axe-webdriverjs
 
-  # axe-core:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: Checkout code
-  #       uses: actions/checkout@v2
-  #     - name: Install dependencies
-  #       run: npm install
-  #     - name: Test accessibility with Axe Core
-  #       uses: https://github.com/dequelabs/axe-core
-  #       with:
-  #         url: ${{ env.URL }}
-          
+      - name: Start web server
+        run: npm start &
+
+      - name: W3C validation
+        run: npx html-validate http://localhost:3000 --format=checkstyle | tee test-results/w3c.xml
+
+      - name: handicap Accessibility Validation
+        run: npx axe-webdriverjs http://localhost:3000 --headless --save ./test-results/handicap_accessibility.json
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: test-results
+          path: test-results/
+
+
