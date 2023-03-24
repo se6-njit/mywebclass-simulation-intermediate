@@ -27,9 +27,6 @@ jobs:
         npm install eslint-config-airbnb-base
         npm install eslint-plugin-import
 
-    - name: Starting Web Server
-      run: npm start &
-
     - name: Eslint Javascript Quality Control
       run: npx eslint . --ext .js --format junit --output-file test-results/eslint.xml
 
