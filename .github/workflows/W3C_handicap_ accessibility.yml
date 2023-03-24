@@ -3,7 +3,10 @@ name: Automatically test W3C validation, handicap accessibility
 on:
   push:
     branches:
-      - main
+      - master
+  pull_request:
+    branches:
+      - master
 
 jobs:
   w3c-validation:
