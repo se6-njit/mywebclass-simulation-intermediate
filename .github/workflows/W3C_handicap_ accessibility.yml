@@ -43,7 +43,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: handicap_accessibility
-          path: handicap_accessibility.xml
+          path: handicap_accessibility.json
 
 
 
