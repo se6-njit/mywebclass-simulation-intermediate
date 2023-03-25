@@ -18,15 +18,12 @@ jobs:
       run: npm install
 
     - name: Build and bundle
-      run: npm run build
-      env:
-        NODE_ENV: production
-
-    - name: Measure build time
-      run: npm run measure-build-time
-
-    - name: Measure bundle size
-      run: npm run measure-bundle-size
+      run: |
+        start=$(date +%s)
+        npm run build
+        end=$(date +%s)
+        echo $(expr $end - $start) > build-time.txt
+        du -sh dist/ > bundle-size.txt
 
     - name: Code quality analysis
       uses: sonarsource/sonarcloud-github-action@master
