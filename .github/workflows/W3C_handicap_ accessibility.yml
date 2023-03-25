@@ -29,7 +29,7 @@ jobs:
         run: npm start & npx wait-on http://localhost:3000
 
       - name: W3C validation
-        run: npx html-validate http://localhost:3000 --save W3C-validation-report.xml || true
+        run: npx html-validate http://localhost:3000 . > W3C-validation-report.xml || true
 
       - name: Handicap Accessibility Validation
         run: axe http://localhost:3000 --chromedriver-path /usr/local/bin/chromedriver --save handicap_accessibility.json || true
