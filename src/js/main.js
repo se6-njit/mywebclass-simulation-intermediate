@@ -31,8 +31,8 @@ function createPrivacyModal () {
             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
           </div>
           <div class="modal-body">
-            <p>Please read our <a href="privacy.html" target="_blank">Privacy Policy</a> carefully before using our website.</p>
-            <p>Do you agree to our Privacy Policy?</p>
+            <p>We have implemented Google Analytics to our webpage. No sesntitive or private data will be tracked int his process</p>
+            <p>Do you agree to your usage of our website will be tracked for Google Analytics?</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" aria-label="Disagree with Privacy policy button">Disagree</button>
@@ -73,7 +73,7 @@ function initializePrivacyModal () {
 
 function loadGoogleAnalytics () {
   // Replace "GA_MEASUREMENT_ID" with your Google Analytics Measurement ID
-  const gaMeasurementId = 'J2FCEQRZJ1'
+  const gaMeasurementId = 'G-02X2TPJVQ4'
 
   // Load the Google Analytics tracking code
   const script = document.createElement('script')

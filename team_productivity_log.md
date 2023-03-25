@@ -54,6 +54,7 @@ member made adequate and equal contributions to the project.
 | Implementing Google Translate API                                                   | 1            | [Issue 90](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/90)                  | Done   | Aryan Nesti (AryanNesti)     | 2023-03-24  | 2023-03-24   | Feature                    | Added Google Translate API                                                         |
 | Implementing Currency.js                                                   | 1            | [Issue 91](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/91)                  | Done   | Aryan Nesti (AryanNesti)     | 2023-03-24  | 2023-03-24   | Feature                    | Added Currency conversion                                                        |
 | Implementing Moment.js                                                   | 1            | [Issue 94](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/94)                  | Done   | Aryan Nesti (AryanNesti)     | 2023-03-24  | 2023-03-24   | Feature                    | Added date and time formatting                                                    |
+| Implementing Google Analytics and GDPR                                                  | 3            | [Issue 96](https://github.com/se6-njit/mywebclass-simulation-intermediate/issues/96)                  | Done   | Aryan Nesti (AryanNesti)     | 2023-03-24  | 2023-03-24   | Feature                    | Implementing Google Analytics and GDPR                                                    |
 
 ## Accumulating Contributions
 
@@ -61,7 +62,7 @@ member made adequate and equal contributions to the project.
 | -------------------------- | ------------------ |
 | Stephen Ebrahim (se6-njit) | 45                 |
 | Ebram Mekhail              | 41                 |
-| Aryan Nesti                | 65                 |
+| Aryan Nesti                | 68                 |
 
 ## Productivity Rating Calculation
 
@@ -73,4 +74,4 @@ member made adequate and equal contributions to the project.
 | -------------------------- | -------------- |
 | Stephen Ebrahim (se6-njit) | 45 / 16 = 2.81 |
 | Ebram Mekhail              | 41 / 13 = 3.15 |
-| Aryan Nesti                | 65 / 18 = 3.61 |
+| Aryan Nesti                | 68 / 19 = 3.58 |
