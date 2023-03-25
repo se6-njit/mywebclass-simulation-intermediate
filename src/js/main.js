@@ -109,3 +109,12 @@ document.addEventListener('DOMContentLoaded', () => {
   createPrivacyModal()
   loadGoogleAnalytics()
 })
+
+import currency from "currency.js";
+const USD = value => currency(value);
+const JPY = value => currency(value, { precision: 0, symbol: '¥' });
+const EURO = value => currency(value, { symbol: '€', decimal: ',', separator: '.' });
+
+USD(1234.567).format(); // => "$1,234.57"
+JPY(1234.567).format(); // => "¥1,235"
+EURO(1234.567).format(); // => "€1.234,57"
