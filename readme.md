@@ -79,13 +79,6 @@ customers. Good luck with the MyWebClass.org Simulation project!
 2. [Part 2 - Lean and Using ChatGPT for The Project](https://youtu.be/EZMRNybUtUI)
 3. TBD
 
-# Project Setup - From Product Development and Devops and Site Reliability
-## [Installation Instructions](./installation_instructions.md)
-
-# Instructions and Scripts to deploy project - From Devops and Site Reliability
-## [Script to deploy Instructions](./Script_to_deploy.md)
-
-
 ## I am giving you my code; howevever, you should replace what I did with your own work. Do Not Turn my own code back into me
 
 - [GitHubPages](https://se6-njit.github.io/mywebclass-simulation-intermediate/)
@@ -109,5 +102,12 @@ customers. Good luck with the MyWebClass.org Simulation project!
 
 # ADD YOUR PROJECT LINKS BELOW THIS
 
+# Project Setup - From Product Development and Devops and Site Reliability
+## [Installation Instructions](./installation_instructions.md)
+
+# Instructions and Scripts to deploy project - From Devops and Site Reliability
+## [Script to deploy Instructions](./Script_to_deploy.md)
+
+# Deployment Link - From Devops and Site Reliability
 - https://se6-njit.github.io/mywebclass-simulation-intermediate/
 
