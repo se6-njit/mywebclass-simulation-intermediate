@@ -111,6 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 import currency from "currency.js";
+
 const USD = value => currency(value);
 const JPY = value => currency(value, { precision: 0, symbol: '¥' });
 const EURO = value => currency(value, { symbol: '€', decimal: ',', separator: '.' });
@@ -118,3 +119,11 @@ const EURO = value => currency(value, { symbol: '€', decimal: ',', separator: 
 USD(1234.567).format(); // => "$1,234.57"
 JPY(1234.567).format(); // => "¥1,235"
 EURO(1234.567).format(); // => "€1.234,57"
+
+import moment from "moment.js"
+
+moment().format('MMMM Do YYYY, h:mm:ss a'); // March 24th 2023, 8:29:07 pm
+moment().format('dddd');                    // Friday
+moment().format("MMM Do YY");               // Mar 24th 23
+moment().format('YYYY [escaped] YYYY');     // 2023 escaped 2023
+moment().format();                          // 2023-03-24T20:29:07-04:00
