@@ -32,7 +32,7 @@ jobs:
         run: npx html-validate http://localhost:3000 --save W3C-validation-report.xml || true
 
       - name: Handicap Accessibility Validation
-        run: axe http://localhost:3000 --chromedriver-path $(where chromedriver) --save handicap_accessibility.json || true
+        run: axe http://localhost:3000 --chromedriver-path /usr/local/bin/chromedriver --save handicap_accessibility.json || true
 
       - name: Save W3C validation report
         uses: actions/upload-artifact@v2
