@@ -70,7 +70,7 @@ customers. Good luck with the MyWebClass.org Simulation project!
 
 ## Link to Project Deployments
 
-- GitHub Pages: https://njit-wis.github.io/mywebclass-simulation-intermediate/
+- GitHub Pages: https://se6-njit.github.io/mywebclass-simulation-intermediate/
 - Oracle Cloud: http://www.mywebclass.org
 
 ## Instructor Project Videos - Will Be Updated as They Are Recorded
@@ -80,10 +80,11 @@ customers. Good luck with the MyWebClass.org Simulation project!
 3. TBD
 
 # Project Setup
+## [Instructions](./installation_instructions.md)
 
 ## I am giving you my code; howevever, you should replace what I did with your own work. Do Not Turn my own code back into me
 
-- [GitHubPages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+- [GitHubPages](https://se6-njit.github.io/mywebclass-simulation-intermediate/)
 - Configure your project with the DockerHub Username and Password in the project
   settings and make a repo.
 - Change the repo in the gituhub workflow files as necessary.
