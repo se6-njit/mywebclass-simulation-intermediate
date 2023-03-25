@@ -25,6 +25,18 @@ jobs:
         echo $(expr $end - $start) > build-time.txt
         du -sh dist/ > bundle-size.txt
 
+    - name: Save Build Time report
+      uses: actions/upload-artifact@v2
+      with:
+        name: build-time
+        path: build-time.txt
+
+    - name: Save Build Time report
+      uses: actions/upload-artifact@v2
+      with:
+        name: bundle-size
+        path: bundle-size.txt
+
     - name: Code quality analysis
       uses: sonarsource/sonarcloud-github-action@master
       env:
