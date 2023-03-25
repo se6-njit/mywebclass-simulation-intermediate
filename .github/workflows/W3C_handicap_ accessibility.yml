@@ -22,8 +22,7 @@ jobs:
       - name: Install dependencies
         run: |
           npm install
-          npm install -g @axe-core/cli@4.6.0 
-          npm install -g chromedriver@109
+          npm install -g @axe-core/cli@4.6.0 chromedriver@111
 
 
       - name: Starting Web Server
@@ -33,7 +32,7 @@ jobs:
         run: npx html-validate http://localhost:3000 --save W3C-validation-report.xml || true
 
       - name: Handicap Accessibility Validation
-        run: axe http://localhost:3000 --exit --save handicap_accessibility.json || true
+        run: axe http://localhost:3000 --chromedriver-path $(where chromedriver) --save handicap_accessibility.json || true
 
       - name: Save W3C validation report
         uses: actions/upload-artifact@v2
