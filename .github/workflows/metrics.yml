@@ -31,7 +31,7 @@ jobs:
         name: build-time
         path: build-time.txt
 
-    - name: Save Build Time report
+    - name: Save Bundle Time report
       uses: actions/upload-artifact@v2
       with:
         name: bundle-size
