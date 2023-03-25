@@ -1,0 +1,40 @@
+name: Metrics
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build and bundle
+      run: npm run build
+      env:
+        NODE_ENV: production
+
+    - name: Measure build time
+      run: npm run measure-build-time
+
+    - name: Measure bundle size
+      run: npm run measure-bundle-size
+
+    - name: Code quality analysis
+      uses: sonarsource/sonarcloud-github-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Save build time and bundle size
+      run: |
+        echo "::set-output name=build-time::$(cat build-time.txt)"
+        echo "::set-output name=bundle-size::$(cat bundle-size.txt)"
+
+    outputs:
+      build-time: ${{ steps.measure-build-time.outputs.time }}
+      bundle-size: ${{ steps.measure-bundle-size.outputs.size }}
